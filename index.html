@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Vehicle Artist | Graphic Designer</title>
+    <meta name="description" content="Portfolio of a 3D Vehicle Artist & Graphic Designer featuring futuristic anti-gravity vehicles.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <canvas id="particles-bg"></canvas>
+
+    <nav class="glass-nav">
+        <div class="nav-content">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#toolkit">Toolkit</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact" class="btn-glow">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero fullscreen" id="hero">
+            <div class="hero-content">
+                <h1 class="fade-up" style="--delay: 0.2s">Design. Render. <br><span class="cyan-text">Dominate.</span></h1>
+                <p class="fade-up subtext" style="--delay: 0.4s">3D Vehicle Artist & Graphic Designer</p>
+                <a href="#toolkit" class="scroll-down fade-up" style="--delay: 0.6s">
+                    <span>Explore</span>
+                    <div class="mouse-icon"><div class="wheel"></div></div>
+                </a>
+            </div>
+            <!-- Minimal hero without image focus -->
+        </section>
+
+        <section class="portfolio" id="toolkit">
+            <div class="showcase-panel offset-left" style="justify-content: center; text-align: center; flex-direction: column; gap: 2rem;">
+                <h2>My <span class="cyan-text">Arsenal</span></h2>
+                <div class="tools-grid">
+                    <div class="tool-card 3d-tilt">
+                        <img src="https://api.iconify.design/simple-icons/blender.svg?color=%2300ffd5" alt="Blender" class="tool-logo">
+                    </div>
+                    <div class="tool-card 3d-tilt">
+                        <img src="https://api.iconify.design/simple-icons/houdini.svg?color=%2300ffd5" alt="Houdini" class="tool-logo">
+                    </div>
+                    <div class="tool-card 3d-tilt">
+                        <img src="https://api.iconify.design/file-icons/adobe-photoshop.svg?color=%2300ffd5" alt="Photoshop" class="tool-logo">
+                    </div>
+                    <div class="tool-card 3d-tilt">
+                        <img src="https://api.iconify.design/file-icons/adobe-illustrator.svg?color=%2300ffd5" alt="Illustrator" class="tool-logo">
+                    </div>
+                    <div class="tool-card 3d-tilt">
+                        <img src="https://api.iconify.design/file-icons/adobe-lightroom.svg?color=%2300ffd5" alt="Lightroom" class="tool-logo">
+                    </div>
+                    <div class="tool-card 3d-tilt">
+                        <img src="https://api.iconify.design/simple-icons/davinciresolve.svg?color=%2300ffd5" alt="DaVinci Resolve" class="tool-logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Section -->
+        <section class="portfolio" id="work">
+            <!-- Alternating layout: Image Left -->
+            <div class="showcase-panel offset-left">
+                <div class="panel-image parallax-container">
+                    <img src="assets/vehicle_1.png" alt="Sci-fi Livery concept" class="parallax-img 3d-tilt">
+                </div>
+                <div class="panel-text reveal-text">
+                    <h2>Neon <span class="cyan-text">Drifter</span></h2>
+                    <p>Atmospheric rendering of a street-ready anti-gravity racer. Real-time procedural materials and lighting.</p>
+                    <button class="btn-outline">View Details</button>
+                </div>
+            </div>
+
+            <!-- Alternating layout: Image Right -->
+            <div class="showcase-panel offset-right">
+                 <div class="panel-text reveal-text">
+                    <h2>Apex <span class="cyan-text">Predator</span></h2>
+                    <p>Aerodynamic studies for highly modified track vehicles. Cinematic grading and depth mapping.</p>
+                    <button class="btn-outline">View Details</button>
+                </div>
+                <div class="panel-image parallax-container">
+                    <img src="assets/vehicle_1.png" alt="Track vehicle study" class="parallax-img 3d-tilt">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="portfolio" id="about">
+            <div class="showcase-panel offset-left" style="justify-content: center; text-align: center;">
+                <div class="panel-text" style="max-width: 800px; flex: none;">
+                    <h2>Behind the <span class="cyan-text">Designs</span></h2>
+                    <p style="font-size: 1.2rem; margin-top: 2rem;">I am a 3D Vehicle Artist and Graphic Designer focused on futuristic and high-performance concepts. Using tools like Blender, Photoshop, Adobe Illustrator, Houdini, and DaVinci Resolve, I craft detailed models, advanced textures, and cinematic presentations that bring next-generation vehicle designs to life.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA section -->
+        <section class="cta fullscreen" id="contact">
+             <div class="cta-content reveal-text">
+                <h2>Ready to <span class="cyan-text">collaborate?</span></h2>
+                <p>Bringing next-gen vehicle concepts to life.</p>
+                <button class="btn-glow large">Start a Project</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Vehicle Artist. All rights reserved.</p>
+        <div class="socials">
+            <a href="#">ArtStation</a>
+            <a href="https://www.instagram.com/phoneographer_250/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
